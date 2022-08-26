@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -9,6 +10,10 @@ module.exports = {
         accent: "#EDEDED",
         bg: "#CDCDCD",
         dark: "#262626",
+        darkMode: "#565656",
+      },
+      fontFamily: {
+        teko: "'teko', 'sans-serif'",
       },
     },
   },
