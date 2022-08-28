@@ -7,6 +7,7 @@ function addDark() {
 document.querySelector("#lightMode").addEventListener("click", removeDark);
 function removeDark() {
   document.documentElement.classList.remove("dark");
+  document.querySelector("#lightMode");
 }
 
 // if (

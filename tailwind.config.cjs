@@ -3,9 +3,6 @@ module.exports = {
   content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
   darkMode: "class",
   theme: {
-    screens: {
-      xs: "440px",
-    },
     extend: {
       colors: {
         primary: "#A61B1B",
@@ -17,6 +14,9 @@ module.exports = {
       },
       fontFamily: {
         teko: "'teko', 'sans-serif'",
+      },
+      screens: {
+        xs: "440px",
       },
     },
   },

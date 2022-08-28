@@ -8,4 +8,12 @@
   h3 {
     font-family: "teko";
   }
+
+  main > * {
+    margin-bottom: 4rem;
+  }
+
+  section > * {
+    margin-bottom: 1.75 rem;
+  }
 }
